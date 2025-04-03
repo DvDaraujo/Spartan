@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    Padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+nav, ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    opacity: 0.9;
+}
+a:hover{
+opacity: 1;
+
+}
+.nav-bar{
+    background-color:black;
+    width:100%;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 2px;
+   }
+.nav-bar img{
+    width: 120px;
+}
+.nav-bar nav{
+    display: flex;
+}
+.nav-bar li{
+    color: white;
+    margin:0 15px;
+    font-size: 18px;
+}
+.nav-bar li:first-child{
+    margin-left: 0;
+}
+.nav-bar :last-child{
+    margin-right: 0;
+}
+.nav-bar li a{
+    color: whitesmoke;
+    background-color: rgb(112, 6, 6);
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+     
+}
+  
+.nav-bar h1 a{
+    color: whitesmoke;
+    align-items: center;
+    padding: 0px 120px;
+    font-size: 40px;
+    flex-direction: row;
+    display: flex;
+    font-family: 'Goblin One';
+    white-space: nowrap;
+}
+    
+    
+
+@media (max-widht:700px) {
+  header{
+    flex-direction: column;
+    }
+    header img{
+        margin-bottom: 15px;
+        }
+}        
+.container-secundario{
+    background-color: rgb(112, 6, 6);
+    width:100%;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:whitesmoke
+}  
+.container-secundario h1{
+    margin-bottom: 15px;
+    font-family: 'Goblin One';
+    font-size: 30px;
+}
+.container-secundario p{
+    margin-bottom: 15px;
+   font-size: 20px;
+}
+hr{
+    background-color: white;
+    width: 350px;
+    margin-bottom: 15px;
+}

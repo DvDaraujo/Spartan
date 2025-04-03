@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    Padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+nav, ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    opacity: 0.9;
+}
+a:hover{
+opacity: 1;
+
+}
+.nav-bar{
+    background-color:black;
+    width:100%;
+    padding:0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+.nav-bar img{
+    width: 120px;
+}
+.nav-bar nav{
+    display: flex;
+}
+.nav-bar li{
+    color: white;
+    margin:0 15px;
+    font-size: 18px;
+}
+.nav-bar li:first-child{
+    margin-left: 0;
+}
+.nav-bar :last-child{
+    margin-right: 0;
+}
+.nav-bar li a{
+    color: whitesmoke;
+    background-color: rgb(112, 6, 6);
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+     
+}
+  
+.nav-bar h1 a{
+    color: whitesmoke;
+    align-items: center;
+    padding: 0px 120px;
+    font-size: 40px;
+    flex-direction: row;
+    display: flex;
+    font-family: 'Goblin One';
+    white-space: nowrap;
+}
+    
+    
+
+@media (max-widht:700px) {
+  header{
+    flex-direction: column;
+    }
+    header img{
+        margin-bottom: 15px;
+        }
+}        
+.container-inicial{
+    background-image: url(../site.html/img/thay.png);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    color: whitesmoke;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.container-inicial h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    font-family: 'Goblin One';
+}
+.container-inicial h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Goblin One';
+}
+.btn{
+   background-color: #b42121;
+   color: white;
+   padding: 20px 70px;
+   border-radius: 8px;
+}
+@media (max-width:700px){
+    .container-inicial h1{
+        font-size: 2,4rem;
+    }
+    .container-inicial h3{
+        font-size: 1.5rem;
+    }
+}  
+.sparta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    color: whitesmoke;
+    background-color:rgb(112, 6, 6);
+    padding: 70px 30px;
+   
+}  
+.sparta h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.sparta p{
+    font-size: 20px;
+    text-align: center;
+    max-width: 800px;
+}
+    .sparta hr{
+        background-color: whitesmoke;
+        width: 450px;
+        height: 2px;
+        border: none;
+        margin-top: 20px;
+    }
+    
+    
+    .ofertas h2{
+        font-size: 30px ;
+    }
+    .ofertas p{
+        font-size: 20px;
+        }
+        
+        
+        .Populares{
+            background-color: #202020;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .Populares h1{
+            color: white;
+            font-size: 40px;
+            margin-bottom: 0px;
+            text-align: center;
+           background-color: black;
+           padding: 40px;
+           width: 100%;
+           
+        }
+        .Populares hr{
+            background-color: white;
+            width: 1349px;
+            height: 2px;
+            margin-bottom: 70px;
+            border: none;
+            
+            
+        }
+    .Luva{
+        background:white ;
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 560px;
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+    .calça{
+        background:white ;
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 560px;
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+    .caneleira{
+        background:white ;
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 560px;
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+    .aparador{
+        background:white ;
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 560px;
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 50px;
+    }
+    .ofertas .produto{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    @media (max-width:350px){
+        .populares .ofertas{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .contato{
+       
+        background-color: black;
+        color: white;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+       
+      
+    }
+    .contato h2{
+        font-size: 30px;
+        margin-bottom: 35px;
+       
+    }
+    .contato p{
+       max-width: 800px;
+        margin-bottom: 35px;
+       
+    }
+   .contato hr{
+    background-color: white;
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    border: none;
+ 
+   }
+   .contato a{
+    background-color: #b42121;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+   }
