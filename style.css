@@ -66,6 +66,7 @@ opacity: 1;
     display: flex;
     font-family: 'Goblin One';
     white-space: nowrap;
+    justify-content: center;
 }
     
     
