@@ -58,6 +58,7 @@ opacity: 1;
 }
   
 .nav-bar h1 a{
+    justify-content:center;
     color: whitesmoke;
     align-items: center;
     padding: 0px 120px;
